@@ -1,0 +1,277 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #bad699
+}
+
+h1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+font-family:"Source Sans Pro";
+  color: #252839;
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+h2{
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+font-family:"Source Sans Pro";
+  color: #252839;
+  padding: 20px;
+  font-size: 28px;
+}
+
+.tabs{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  background-color: beige;
+}
+
+a {
+  font-size: 20px;
+  color: #bc6c25; 
+  }
+a:hover{
+  color: #f79322;
+}
+a:active{
+  color:#ff8400;
+}
+
+.missionStatement{
+  background-color: beige;
+  text-align: center;
+  margin: auto;
+  width: 35%;
+  color: #252839;
+  border: 2px solid #d6aa89;
+  border-radius: 8px;
+  padding:20px;
+  font-size: 20px;
+}
+
+.music{
+  display:flex;
+  justify-content: center;
+  padding: 40px;
+  border-radius:3px;
+}
+
+button{
+  border: 2px solid #d6aa89;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 15px;
+  background-color: #f0d6a2;
+}
+
+button:hover{
+  border: 2px solid #bad699;
+  cursor: pointer;
+}
+
+.abortionParagraphs{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+text-align: center; 
+  margin: auto;
+  width: 60%;
+}
+
+.dOneIm{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; 
+  margin: auto;
+  width: 60%;
+}
+
+.orderResources{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 25px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.imageButtons img:hover {
+  transform:scale(1.25);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.imageButtons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.pOneIm{
+  background-color:beige;
+  border:2px solid #bc6c25;
+  border-radius: 5%/50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.pOneAb{
+  background-color:beige;
+  border:2px solid #bc6c25;
+  border-radius: 5%/50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.p0neGu{
+  background-color:beige;
+  border:2px solid #bc6c25;
+  border-radius: 5%/50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gunControlParagraphs{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+text-align: center; 
+  margin: auto;
+  width: 60%;
+}
+
+.links{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  background-color:  #f0d6a2;
+  border: 2px solid #d6aa89 ;
+}
+
+.bodyPara{
+  background-color: beige;
+  text-align: center;
+  margin: auto;
+  width: 35%;
+  color: #d6aa89;
+  border: 2px solid #d6aa89 ;
+  border-radius: 3px;
+  padding: 35px;
+}
+.imgOneIm{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 25px;
+}
+
+.imgOneIm img:hover {
+  transform:scale(1.25);
+  z-index: 2;
+  cursor: pointer;
+}
+
+ .divMiOne{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; 
+  margin: auto;
+  width: 60%;
+ }
+  
+.hOneMig{
+  background-color:beige;
+  border:2px solid #bc6c25;
+  border-radius: 5%/50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.immigrationLink{
+   display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+text-align: center; 
+  margin: auto;
+  width: 60%;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+.lgbtqParagraphs{
+    display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+text-align: center; 
+  margin: auto;
+  width: 60%;
+}
+  .lgbtqH2{
+  background-color:beige;
+  border:2px solid #bc6c25;
+  border-radius: 5%/50%;
+  justify-content: center;
+  text-align: center; 
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 60%;
+  }
+
+.imgMi{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 25px;
+}
+
+.imgMi img:hover {
+  transform:scale(1.25);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.webDevelopers{
+  justify-content: center;
+  text-align: center; 
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 50%;
+}
+
+.webParagraphs{
+  border: 2px solid #bad699;
+  background-color: #f0d6a2;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  color: #252839;
+  padding:20px;
+  width: 50%
+}
+.bioPfp{
+  border: 2px solid beige;
+  border-radius: 8px;
+}
